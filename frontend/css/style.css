@@ -1,0 +1,67 @@
+*{
+    font-family:"Baskerville Old Face";
+}
+/* Left navigasiya dizaynı*/
+.left{
+    padding-left:5%;
+    margin:0;
+    height:100vh;
+
+}
+.logo{
+    margin-top: 20%;
+}
+.logo > img{
+    width:40%;
+    display: block;
+    border-radius: 5%;
+}
+.logo > a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size:28px;
+}
+.menu{
+    margin-top:10%;
+}
+.menu > a{
+    color: antiquewhite;
+    display: block;
+    font-size:20px;
+    border-bottom:solid .5px;
+    text-decoration: none;
+}
+a:hover{
+    color: #5e5e5e;
+}
+.navbar-inverse{
+    border-radius:0;
+    margin-bottom:0;
+    position: fixed;
+}
+/*Right Posts panel dizayn*/
+.right{
+    float: right;
+    margin:0;
+    background-color: grey;
+    height:100%;
+    box-sizing: border-box;
+    padding:10%;
+}
+.post{
+    padding:10%;
+    padding-bottom:0;
+    background: white;
+    font-size:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.post_footer{
+    padding:5%;
+    background: darkslategray;
+}
+.post_footer>a{
+    margin:2%;
+    font-size:20px;
+}

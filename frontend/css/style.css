@@ -99,10 +99,58 @@ a:hover{
     color: white;
     border:none;
 }
+.comment > label{
+    font-size:24px;
+}
+#ad,#mail{
+    width:40%;
+    height:50px;
+    font-size:24px;
+}
+
+/* contact page */
+.contact{
+    padding:10%;
+   background: white;
+                  }
+.c_form>*{
+    display: block;
+    font-size:24px;
+}
+.c_form button{
+    border:none;
+    background: rgba(0, 0, 0, 0.78);
+    color: white;
+}
+.c_form > textarea{
+    width:70%;
+}
+.s_me{
+    margin-top:5%;
+
+}
+.s_me  i{
+    padding:3%;
+    display: inline-block;
+    font-size:24px;
+    border:solid blue .5px;
+    background: black;
+    color: white;
+    transition:2s;
+}
+.s_me i:hover{
+
+transform: rotatez(45deg);
+}
 /* mobile version */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)  {
     .navbar-inverse{
         position: relative;
     }
-
+    .right{
+        width:100%;
+    }
+    .c_form > textarea {
+        width:100%;
+    }
 }

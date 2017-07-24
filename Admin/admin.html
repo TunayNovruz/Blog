@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../frontend/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../frontend/css/style.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../frontend/css/admin.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="navbar col-md-3 col-sm-12 navbar-inverse">
+            <div class=" left">
+                <div class="navbar-header">
+                    <div class="col-md-12 logo">
+                        <img src="../images/profil.jpg" alt="profil photo"> <br>
+                        <a href="#"> Tunay Novruz</a>
+                    </div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class=" collapse navbar-collapse" id="menu">
+                    <div class="col-md-10 menu">
+                        <a href="#">Profil</a><a class="plus" href="#"> <i class="glyphicon glyphicon-plus"></i></a> <br>
+                        <a href="#">Səhifələr</a><a class="plus" href="#"> <i class="glyphicon glyphicon-plus"></i></a> <br>
+                        <a href="#">Blog Yazıları</a><a class="plus" href="#"><i class="glyphicon glyphicon-plus"></i></a> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-12 right">
+                <div class="post">
+                    <h1>Blog TƏnzimləmələri</h1>
+                    <form action="#">
+                        <div class="set">
+                            <label for="s_lg">Blog Sahibi</label>
+                            <input type="text" class="profil" id="s_lg">
+                        </div>
+                        <div class="set">
+                            <label for="s_log">Login</label>
+                            <input type="text" class="profil" id="s_log">
+                        </div>
+                        <div class="set">
+                            <label for="s_psw">Parol</label>
+                            <input type="password" class="profil" id="s_psw">
+                        </div>
+                        <div class="set">
+                            <label for="s_p">Blog Şəkil </label>
+                            <input type="file" class="pic" id="s_p">
+                        </div>
+                            <button class="text-center" type="submit"> Yadda saxla</button>
+                    </form>
+                </div>
+                <div class="post">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../frontend/bootstrap/js/jquery.min.js"></script>
+<script src="../frontend/bootstrap/js/bootstrap.min.js"></script>
+<script src="../frontend/js/main.js"></script>
+</body>
+</html>

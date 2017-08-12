@@ -1,0 +1,71 @@
+@import "font-awesome.min.css";
+.menu > a{
+    display: inline-block !important;
+}
+.plus{
+    float: right;
+    border:none !important;
+}
+.set{
+    margin:5%;
+    width:100%;
+    padding:1%;
+}
+.set >label{
+    position: relative;
+    left:0;
+}
+.set >input{
+    float: right;
+}
+
+.post button {
+    margin-left:40%;
+}
+.right{
+    padding-top:4% !important;
+}
+#ph{
+    width:100%;
+}
+#ph input{
+    width:100%;
+    padding:2%;
+    font-size:24px;
+    border-radius:1%;
+    border:none;
+    outline:none;
+}
+.new-post{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+#select{
+    border: none;
+    font-size: 24px;
+    height: 64px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+}
+#tags{
+    width:70%;
+    padding:2%;
+    font-size:24px;
+}
+
+@media screen  and (max-width: 768px){
+    .set >*{
+        display: block;
+        clear: both ;
+    }
+    .set{
+        margin:0;
+    }
+    #s_p{
+        width:100%;
+    }
+    .post button {
+        margin-top:10%;
+        margin-left:25%;
+    }
+}

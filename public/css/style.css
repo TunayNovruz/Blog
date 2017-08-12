@@ -1,0 +1,203 @@
+@import "font-awesome.min.css";
+*{
+    font-family:"Baskerville Old Face";
+}
+/* Left navigasiya dizaynı*/
+.left{
+    padding-left:5%;
+    margin:0;
+}
+.logo{
+    margin-top: 20%;
+}
+.logo > img{
+    width:60%;
+    display: block;
+    border-radius: 5%;
+}
+.logo > a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size:28px;
+}
+.menu{
+    margin-top:10%;
+}
+.menu > a{
+    color: antiquewhite;
+    display: block;
+    font-size:20px;
+    border-bottom:solid .5px;
+    text-decoration: none;
+    padding:4% 0;
+}
+a:hover{
+    color: #5e5e5e;
+}
+.navbar-inverse{
+    border-radius:0;
+    margin-bottom:0;
+    position: fixed;
+    top:0;
+    bottom:0;
+    overflow: auto;
+}
+.navbar-inverse::-webkit-scrollbar{
+    visibility: hidden;
+}
+/*Right Posts panel dizayn*/
+.right{
+    float: right;
+    margin:0;
+    background-color: grey;
+    height:100%;
+    box-sizing: border-box;
+    padding:7%;
+    padding-bottom:0;
+}
+.post{
+    padding:10%;
+    padding-bottom:0;
+    background: white;
+    font-size:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.post_footer{
+    padding:5%;
+    background: rgba(14, 248, 230, 0.93);
+}
+.post_footer>a{
+    margin:0 2%;
+    font-size:20px;
+}
+/* Social media buttons */
+.paylash{
+    padding:5% 0;
+}
+.paylash>h3{
+    display: inline-block;
+    border-top:solid;
+}
+/* Comment hissesi*/
+.comment{
+    background: white;
+    float: right;
+    width:100%;
+    padding:5%;
+
+}
+.comment>textarea{
+    width:90%;
+}
+#send{
+    margin-top:7%;
+    margin-left:20%;
+    float: right;
+    display: block;
+    padding:1% 2%;
+    font-size:24px;
+    background: black;
+    color: white;
+    border:none;
+}
+.comment > label{
+    font-size:24px;
+}
+#ad,#mail{
+    width:40%;
+    height:50px;
+    font-size:24px;
+}
+
+/* contact page */
+.contact{
+    padding:10%;
+   background: white;
+                  }
+.c_form>*{
+    display: block;
+    font-size:24px;
+}
+.c_form button{
+    border:none;
+    background: rgba(0, 0, 0, 0.78);
+    color: white;
+}
+.c_form > textarea{
+    width:70%;
+}
+.s_me{
+    margin-top:5%;
+
+}
+.s_me  i{
+    padding:3%;
+    display: inline-block;
+    font-size:24px;
+    border:solid blue .5px;
+    background: black;
+    color: white;
+    transition:2s;
+}
+.s_me i:hover{
+    background: #0f74a8;
+transform: rotatez(360deg);
+}
+#admin_button{
+    position:fixed;
+    top: 2%;
+    right: 2%;
+    z-index: 500;
+    background: #fffc3b;
+    padding:1% 2%;
+    font-size: 18px;
+}
+#post_button{
+    position:fixed;
+    top: 2%;
+    right: 12%;
+    z-index: 500;
+    background: #fffc3b;
+    padding:1% 2%;
+    font-size: 18px;
+}
+#login{
+    margin-top:30%;
+    margin-bottom:28%;
+    font-size:24px;
+}
+#login input{
+    font-size:24px;
+}
+
+.comments{
+    background: white;
+    width:100%;
+    border-radius:3PX;
+}
+/* mobile version */
+@media screen and (max-width: 768px)  {
+    #post_button{
+        position:fixed;
+        top: 2%;
+        right: 25%;
+        z-index: 500;
+        background: #fffc3b;
+        padding:1% 2%;
+        font-size:14px;
+    }
+    #admin_button{
+        font-size:14px;
+    }
+    .navbar-inverse{
+        position: relative;
+    }
+    .right{
+        width:100%;
+    }
+    .c_form > textarea {
+        width:100%;
+    }
+}
